@@ -13,7 +13,7 @@ Qoder Skill：求职日程总结（面试/笔试/测评）+ 日历自动同步 +
 
 ## 依赖
 
-- [Qoder](https://qoder.com) IDE
+- 任意支持 Skill 规范的通用 coding agent（如 CC 等）
 - 邮件 MCP：`qq-email`（[@xingyuchen/email-mcp](https://www.npmjs.com/package/@xingyuchen/email-mcp)）
 - 日历 MCP（按系统选择）：
   - **macOS**：[apple-calendar-mcp](https://github.com/s-morgan-jeffries/apple-calendar-mcp)，仅用于查询；事件写入走系统 `osascript`（MCP 写入接口存在已知异常）
@@ -23,7 +23,7 @@ Qoder Skill：求职日程总结（面试/笔试/测评）+ 日历自动同步 +
 
 ## 安装
 
-将本目录放入 Qoder 全局 Skill 目录：
+将本目录放入所用 coding agent 的 skills 目录（以 Qoder 为例）：
 
 ```bash
 cp -r recruit-schedule ~/.qoder/skills/
